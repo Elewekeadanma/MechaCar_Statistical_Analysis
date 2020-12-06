@@ -20,10 +20,13 @@ The variance of the suspension coils for Lot 1, Lot 2 and Lot 3 are 0.98, 7.47 a
 ---
 ##  T-Test on Suspension Coils
 - For lot 1, the p-value=1.568e-11 way below the significance level. Therefore, we assume that there is enough evidence to reject the null hypothesis.
+
 ![T-Test for lot1](https://github.com/Elewekeadanma/MechaCar_Statistical_Analysis/blob/main/T_test_for_lot1.JPG)
 - For lot2, the p-value =0.0005911 which is also below the significancer level. Therefore, we assume that there is enough evidence to reject the null hypothesis.
+
 ![T-Test for lot2](https://github.com/Elewekeadanma/MechaCar_Statistical_Analysis/blob/main/T_test_for_lot2.JPG)
 - For lot3, the p-value=0.1589 which is above the significance level. Therefore, we can would state that there is not enough evidence to reject the null hypothesis.
+
 ![T-Test for lot3](https://github.com/Elewekeadanma/MechaCar_Statistical_Analysis/blob/main/T_test_for_lot3.JPG)
 ---
 ##  Study Design: MechaCar vs Competition
