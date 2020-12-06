@@ -10,3 +10,9 @@ total_summary <- suspension %>% summarize(Mean=mean(PSI),Median=median(PSI),
             Variance=var(PSI),SD=sd(PSI)) #create summary table
 lot_summary <- suspension %>% group_by(Manufacturing_Lot) %>%  summarize(Mean=mean(PSI),
                 Median=median(PSI),Variance=var(PSI),SD=sd(PSI))# create lot summary table
+sample_suspension <- suspension %>% sample_n(50)
+t.test(sample_suspension$PSI, mu=mean(suspension$PSI))
+
+suspension_lot1 <- subset(suspension, Manufacturing_Lot == Lot1)
+suspension_lot2 <- subset(suspension, Manufacturing_Lot == Lot2)
+suspension_lot3 <- subset(suspension, Manufacturing_Lot == Lot3)
