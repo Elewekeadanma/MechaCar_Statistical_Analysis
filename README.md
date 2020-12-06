@@ -34,6 +34,6 @@ The variance of the suspension coils for Lot 1, Lot 2 and Lot 3 are 0.98, 7.47 a
 ##  Study Design: MechaCar vs Competition
 To design a statistical study to compare performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, I will add metrics such as the maintenance cost, fuel efficiency and insurance costs.
 I will generate a null hypothesis, its corresponding alternate hypothesis and the significance level  which will help me narrow the scope of my research and testing as well as provide a clear outcome of my results.
-A multiple linear regression test will be sufficient to use since my data is continuous.
+A multiple linear regression test will be sufficient to use since my data is continuous. I consider it continous because it is data that has been collected over a period of time.
 Data needed to run the statistical test will be maintenance cost, fuel efficiency and insurance of various makes of vehicles collected over a period of time.
  
